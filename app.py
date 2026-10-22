@@ -2,6 +2,10 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+
+
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 import pandas as pd
 import streamlit as st
 
